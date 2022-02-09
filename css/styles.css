@@ -1,0 +1,44 @@
+#qr-code{
+    font-family: "outfit";
+    background-color: #D6E5FA;
+    text-align: center;
+    margin: 100px 0;
+    width: 1440px;
+}
+
+h1{
+  font-weight: 700;  
+  font-size: 22px;
+}
+p{
+ font-size: 15px; 
+ font-weight: 400;
+ color: lightgray; 
+}
+
+.qr-code-space{
+ background-color: white;
+ padding: 1%;
+ height: 400px;
+ width: 250px;
+ text-align: center;
+ margin: 0 auto;
+ border-radius: 20px;
+
+}
+
+/* image */
+.qr-code-image{
+    width: 100%;
+    border-radius: 15px;
+}
+
+@media (max-width: 375px) {
+    #qr-code{
+        width: auto;
+    }
+    .qr-code-space{
+        height: 450px;
+    }
+}
+
